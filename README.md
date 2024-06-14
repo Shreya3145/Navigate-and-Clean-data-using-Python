@@ -19,9 +19,9 @@ The primary objective of this project is to demonstrate data cleaning techniques
 - **Insights Extraction**: Generate insights and summaries from the cleaned data.
 
 ## Basic commands to tryout!
-import pandas as pd
-data = pd.read_csv('data/food_choices.csv')
-print(data.info())
-data = data.dropna()
-data = data.drop_duplicates()
-data.to_csv('cleaned_data/cleaned_food_choices.csv', index=False)
+- import pandas as pd
+- data = pd.read_csv('data/food_choices.csv')
+- print(data.info())
+- data = data.dropna()
+- data = data.drop_duplicates()
+- data.to_csv('cleaned_data/cleaned_food_choices.csv', index=False)

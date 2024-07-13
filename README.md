@@ -18,7 +18,7 @@ The primary objective of this project is to demonstrate data cleaning techniques
 - **Data Cleaning**: Perform basic data cleaning operations such as handling missing values, removing duplicates, and standardizing data formats.
 - **Insights Extraction**: Generate insights and summaries from the cleaned data.
 
-## Basic commands to tryout!
+## Basic commands
 - import pandas as pd
 - data = pd.read_csv('data/food_choices.csv')
 - print(data.info())
